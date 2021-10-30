@@ -1,0 +1,13 @@
+title: Default Page
+preset: page
+fields:
+  layout:
+    type: layout
+    layouts:
+      - "1/1"
+      - "1/2, 1/2"
+    fieldsets:
+      - heading
+      - text
+      - image
+    settings: fields/settings/structure

@@ -1,0 +1,7 @@
+tabs:
+  styles:
+    fields:
+      class:
+        type: text
+      id:
+        type: text

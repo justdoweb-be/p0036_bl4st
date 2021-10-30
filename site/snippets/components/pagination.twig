@@ -1,0 +1,11 @@
+{% if pagination and pagination.next %}
+  <div id="replaceMe">
+    <button
+      hx-get="{{ pagination.next }}"
+      hx-swap="outerHTML"
+      hx-target="#replaceMe"
+      class="border p-2 uppercase">
+      {{ label }}
+    </button>
+  </div>
+{% endif %}

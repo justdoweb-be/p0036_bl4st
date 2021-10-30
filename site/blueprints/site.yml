@@ -1,0 +1,4 @@
+title: Site
+preset: pages
+unlisted:
+  extends: sections/articles

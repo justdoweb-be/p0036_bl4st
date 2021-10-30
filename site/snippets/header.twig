@@ -1,0 +1,10 @@
+{% set items = pages.listed() %}
+{% if items %}
+    <nav>
+        <ul>
+    {% for item in items%}
+            <li><a href="{{ item.url }}">{{ item.title.html() }}</a></li>
+    {% endfor %}
+        </ul>
+    </nav>
+{% endif %}

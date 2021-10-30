@@ -1,0 +1,12 @@
+{% apply spaceless %}
+
+{# Global variables #}
+{% set baseUrl = '' %}
+{% set isHtmxRequest = 'Hx-Request' in kirby.request.headers|keys ? true : false %}
+{% set gaTrackingId = '' %}
+
+{# Rendering #}
+{% block htmlPage %}
+{% endblock %}
+
+{% endapply %}

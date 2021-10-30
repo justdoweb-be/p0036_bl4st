@@ -1,0 +1,28 @@
+{% extends 'layout/layout.twig' %}
+
+{% block content %}
+  <div class="relative">
+    <main data-barba="container"  data-barba-namespace="{{ page.slug }}" class="container mx-auto relative px-4 py-12">
+
+
+      <div class="bg-green-500">
+        <h1 class="text-2xl font-bold text-red-500">
+          {{ page.title }}
+        </h1>
+
+        {% for layout in page.layout.toLayouts() %}
+          {% for column in layout.columns() %}
+            {{ column.blocks()|raw }}
+          {% endfor %}
+        {% endfor %}
+
+      </div>
+
+    </main>
+  </div>
+{% endblock %}
+
+
+{#
+snippet('header');
+snippet('footer');#}

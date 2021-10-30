@@ -1,0 +1,13 @@
+{% extends 'Hx-Request' in kirby.request.headers|keys
+    ? "layout/base-ajax.twig"
+    : "layout/layout.twig"
+%}
+
+{% block content %}
+    <ul id="">
+        {% for entry in entries %}
+            <li>{% include '@snippets/content/blog_teaser.twig' with { 'entry':entry } %}</li>
+        {% endfor %}
+    </ul>
+    {% include '@snippets/components/pagination.twig' with { 'label':'Charger plus d\'articles',  'pagination':pagination } %}
+{% endblock %}

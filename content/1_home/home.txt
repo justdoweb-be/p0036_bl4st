@@ -1,0 +1,5 @@
+Title: Accueil
+
+----
+
+Layout: [{"attrs":{"class":"","id":""},"columns":[{"blocks":[{"content":{"level":"h2","text":"Welcome"},"id":"46750263-27ba-401e-a046-693c65842fc7","isHidden":false,"type":"heading"},{"content":{"text":"<p>SemperNunc semper erat cursus purus vulputate maecenas placerat fringilla diam eros laoreet convallis efficitur, condimentum et pulvinar sagittis velit hac arcu odio morbi maximus nullam porttitor. Malesuada imperdiet adipiscing massa at purus eleifend duis porttitor dis tempus lacinia, varius neque id tellus integer mollis risus lobortis aptent montes, porta venenatis orci cras pretium erat habitant felis nulla augue.<\/p>"},"id":"c9c1c70c-8aae-45c5-9e47-b9113106dd02","isHidden":false,"type":"text"},{"content":{"location":"kirby","image":["wojciech-then-dija5f0vogq-unsplash.jpg"],"src":"","alt":"","caption":null,"link":"","ratio":"16\/9","crop":"true"},"id":"b764ec7a-51d3-4c7d-afe8-d035a25e3655","isHidden":false,"type":"image"}],"id":"5cc83ea1-83e9-4418-90b0-fe4725925ace","width":"1\/1"}],"id":"f450adde-3495-469f-bf00-39e74bd37bac"}]

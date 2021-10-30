@@ -1,0 +1,14 @@
+title: Billet
+preset: page
+num: date
+fields:
+  layout:
+    type: layout
+    layouts:
+      - "1/1"
+      - "1/2, 1/2"
+    fieldsets:
+      - heading
+      - text
+      - image
+    settings: fields/settings/structure

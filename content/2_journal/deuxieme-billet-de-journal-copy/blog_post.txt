@@ -1,0 +1,5 @@
+Title: 2. Deuxième billet de journal COPY
+
+----
+
+Layout: [{"attrs":{"class":"","id":""},"columns":[{"blocks":[{"content":{"text":"<p><strong>SemperNunc semper erat cursus purus<\/strong> vulputate maecenas placerat fringilla diam eros laoreet convallis efficitur, condimentum et pulvinar sagittis velit hac arcu odio morbi maximus nullam porttitor. Malesuada imperdiet adipiscing massa at purus eleifend duis porttitor dis tempus lacinia, varius neque id tellus integer mollis risus lobortis aptent montes, porta venenatis orci cras pretium erat habitant felis nulla augue...<\/p>"},"id":"4fd2d2c5-fb53-45ad-93b4-86887dcef9e9","isHidden":false,"type":"text"}],"id":"4599131e-b79a-449c-9462-a6c9a3f92760","width":"1\/1"}],"id":"3421a0e6-06ac-44d0-bb51-a1d0cc35ad91"}]

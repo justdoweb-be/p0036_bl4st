@@ -1,0 +1,21 @@
+{% extends "layout/global.twig" %}
+
+{%- block htmlPage -%}
+<!doctype html>
+
+<html lang="" prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb#">
+<head>
+    <meta charset="utf-8">
+    <title>{{ page.title.html() }} • {{ site.title.html() }}</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    {% include '@plugins/db-vite/snippets/styles.twig' %}
+</head>
+<body class="{% block bodyClasses %}{% endblock %}" data-barba="wrapper">
+    {% block body %}{% endblock %}
+    {% include '@plugins/db-vite/snippets/scripts.twig' %}
+    {% include '@plugins/db-vite/snippets/development.twig' %}
+    <script src="https://unpkg.com/htmx.org@1.6.0" integrity="sha384-G4dtlRlMBrk5fEiRXDsLjriPo8Qk5ZeHVVxS8KhX6D7I9XXJlNqbdvRlp9/glk5D" crossorigin="anonymous"></script>
+</body>
+</html>
+{% endblock %}

@@ -1,0 +1,3 @@
+{% if not site.viteDevelopmentMode() %}
+    {{ css(site.viteCssProductionFiles()) }}
+{% endif %}

@@ -1,0 +1,19 @@
+/*@tailwind base;*/
+/*@tailwind components;*/
+/*@tailwind utilities;*/
+
+[x-cloak] {
+  @apply hidden
+}
+
+.icon svg {
+  @apply w-full h-auto max-h-full;
+}
+
+body {
+  color: red;
+}
+
+.test {
+  @apply bg-green-200;
+}

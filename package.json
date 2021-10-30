@@ -1,0 +1,24 @@
+{
+  "name": "kirby-vite",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "touch src/.lock && vite",
+    "build": "rm -f src/.lock && vite build"
+  },
+  "devDependencies": {
+    "vite": "^2.0.4"
+  },
+  "dependencies": {
+    "@alpinejs/intersect": "^3.4.2",
+    "@barba/core": "^2.9.7",
+    "@iconify/json": "^1.1.407",
+    "alpinejs": "^3.4.0",
+    "animejs": "^3.2.1",
+    "htmx.org": "^1.5.0",
+    "lozad": "^1.16.0",
+    "unplugin-icons": "^0.11.4",
+    "vite-plugin-live-reload": "^2.0.0",
+    "vite-plugin-windicss": "^1.4.12",
+    "windicss": "^3.2.0"
+  }
+}

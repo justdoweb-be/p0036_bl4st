@@ -1,0 +1,20 @@
+{% extends 'layout/base-web.twig' %}
+
+{% block body %}
+
+    {% block header %}
+        <header>
+            {% include '@snippets/header.twig' %}
+        </header>
+    {% endblock %}
+
+        <main data-barba="container"  data-barba-namespace="{{ page.slug }}" class="container mx-auto relative px-4 py-12">
+            {% block content %}{% endblock %}
+        </main>
+
+    {% block footer %}
+        <footer>
+            {% include '@snippets/footer.twig' %}
+        </footer>
+    {% endblock %}
+{% endblock %}

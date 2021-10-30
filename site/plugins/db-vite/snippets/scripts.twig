@@ -1,0 +1,3 @@
+{% if not site.viteDevelopmentMode() %}
+    {{ js(site.viteJsProductionFiles(), {'type':'module'}) }}
+{% endif %}
